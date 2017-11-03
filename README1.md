@@ -1,17 +1,7 @@
-# Unscented Kalman Filter Project
+# Unscented Kalman Filter Project Starter Code
 Self-Driving Car Engineer Nanodegree Program
 
-		Tung Thanh Le
-		ttungl at gmail dot com
-
-
-This project utilizes an `Unscented Kalman Filter` to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the [project rubrics](https://review.udacity.com/#!/rubrics/783/view). 
-
-<img src="https://github.com/ttungl/SDC-term2-Unscented-Kalman-Filters/blob/master/output/ukf_image.png" height="303" width="550">
-
-The result meets the project rubric's requirements. I used "obj_pose-laser-radar-synthetic-input.txt" dataset, the algorithm outputs are compared to ground truth data. The `px`, `py`, `vx`, and `vy` values of RMSE are in the above figure, less than the values `[.09, .10, .40, .30]`.
-
---
+In this project utilize an Unscented Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project reburic. 
 
 This project involves the Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases)
 
